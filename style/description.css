@@ -1,0 +1,307 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: auto;
+    top: 0px;
+    padding : 0;
+}
+
+.navbar-center {
+    display: flex;
+}
+
+.navbar-left {
+    display: flex;
+}
+
+.navbar-right {
+    display: flex;
+}
+
+.logo {
+    height: 20px;
+    padding: 4px 20px 0 20px;
+}
+
+.mobile-navbar {
+    display: none;
+}
+
+.mobile-navbar li ul {
+    display: none;
+    list-style: none;
+    margin:0;
+}
+
+.mobile-navbar li:hover ul {
+    display: block;
+    justify-content: right;
+    text-align: right;
+    list-style: none;
+}
+
+.mobile-navbar li {
+    display:block;
+    text-align: right;
+}
+
+.menu {
+    background-color: rgb(0, 0, 0);
+    border: none;
+    color: white;
+    padding: 22px 28px 22px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'Bahnschrift';
+    transition: background-color 0.5s;
+}
+  
+.menu:hover {
+    background-color: brown;
+}
+
+.promo {
+    background-color: brown;
+    padding:2px;
+}
+
+.button {
+    background-color: rgb(0, 0, 0);
+    border: none;
+    color: white;
+    padding: 24px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'Bahnschrift';
+    transition: background-color 0.5s;
+}
+  
+.button:hover {
+    background-color: brown;
+}
+
+.nbrArticles {
+    background-color: brown;
+    padding: 5px 10px 5px 10px;
+    border: 1px solid white;
+    border-radius: 100%;
+}
+
+
+body {
+    text-align: center;
+    color: black;
+    margin: 0;
+    padding: 0;
+    font-family: 'Bahnschrift';
+}
+
+.res {
+    margin: 0;
+}
+
+.main {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.produit {
+    background-color: whitesmoke;
+    width: 50%;
+    margin: 5%;
+    padding: 5%;
+    border-radius: 10px;
+}
+
+.produits {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 5% 0 5%;
+}
+
+.produit2 {
+    color: black;
+    display: block;
+    justify-content: space-evenly;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    margin: 25px;
+    padding-top: 10px;
+}
+
+.image{
+    width: 40%;
+    max-width: 400px;
+    min-width: 150px;
+}
+
+.mainimage{
+    width: 70%;
+    max-width: 100%;
+    min-width: 150px;
+    border-radius: 5px;
+}
+
+
+.texte {
+    text-align: start;
+    display: block;
+}
+
+.endpage {
+    display: block;
+    justify-content: center;
+    margin: 100px 0px 20px 20px;
+}
+
+.buttonendpage {
+    background-color: rgb(0, 0, 0);
+    border: none;
+    color: white;
+    padding: 16px;
+    margin: 0 25px 25px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'Bahnschrift';
+    transition: background-color 0.5s;
+}
+
+.ajouter {
+    background-color: rgb(0, 0, 0);
+    border: none;
+    color: white;
+    margin: 24px 12px 12px 12px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Bahnschrift';
+    transition: background-color 0.5s;
+}
+  
+.ajouter:hover {
+    background-color: brown;
+}
+
+.etoile {
+    color: gold;
+    margin-bottom: 10px;
+}
+
+h1 {
+    margin: 0;
+    padding: 10px 25px;
+}
+
+h2 {
+    margin: 10px;
+}
+
+.h2 {
+    margin: 10px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.h4 {
+    margin: 10px;
+}
+
+.nom {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0;
+    margin: 10px;
+}
+
+.description {
+    font-size: 16px;
+    margin: 0;
+}
+
+a {
+    margin: auto;
+    text-decoration:none;
+    color: black
+}
+
+.titre {
+    margin: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 50px;
+}
+
+footer {
+    padding: 100px 0 100px 0;
+    background-color: brown;
+    color: black;
+}
+
+.reseaux{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.reseau{
+    display: block;
+    height: 50px;
+    margin: 5px;
+}
+
+@media all and (max-width: 700px) {
+    .navbar {
+        display: none;
+    }
+ 
+    .mobile-navbar {
+        display: flex;
+        justify-content: space-between;
+        background-color: rgb(0, 0, 0);
+        width: 100%;
+        height: auto;
+        top: 0px;
+        padding : 5px;
+    }
+    .texte {
+        font-size: 12px;
+    }
+
+    .h2 {
+        margin: 10px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    
+    .h4 {
+        margin: 10px;
+        font-size: 14px;
+    }
+
+    .produits {
+        display: block;
+        margin: 10%;
+    }
+    
+    .image {
+        width: 40%;
+        max-width: 400px;
+        min-width: 150px;
+    }
+
+    .main {
+        display: block;
+        margin: 25px 0 50px 0
+    }
+    .produit {
+        display: block;
+        margin: 0 auto 0 auto;
+        border-radius: 0;
+        width: 60%;
+    }
+    
+}

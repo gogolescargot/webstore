@@ -1,0 +1,200 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: auto;
+    top: 0px;
+    padding : 0;
+}
+
+.navbar-center {
+    display: flex;
+}
+
+.navbar-left {
+    display: flex;
+}
+
+.navbar-right {
+    display: flex;
+}
+
+.logo {
+    height: 20px;
+    padding: 4px 20px 0 20px;
+}
+
+.mobile-navbar {
+    display: none;
+}
+
+.mobile-navbar li ul {
+    display: none;
+    list-style: none;
+    margin:0;
+}
+
+.mobile-navbar li:hover ul {
+    display: block;
+    justify-content: right;
+    text-align: right;
+    list-style: none;
+}
+
+.mobile-navbar li {
+    display:block;
+    text-align: right;
+}
+
+.menu {
+    background-color: rgb(0, 0, 0);
+    border: none;
+    color: white;
+    padding: 22px 28px 22px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'Bahnschrift';
+    transition: background-color 0.5s;
+}
+  
+.menu:hover {
+    background-color: brown;
+}
+
+.promo {
+    background-color: brown;
+    padding:2px;
+}
+
+.button {
+    background-color: rgb(0, 0, 0);
+    border: none;
+    color: white;
+    padding: 24px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'Bahnschrift';
+    transition: background-color 0.5s;
+}
+  
+.button:hover {
+    background-color: brown;
+}
+
+.button {
+    background-color: rgb(0, 0, 0);
+    border: none;
+    color: white;
+    padding: 24px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'Bahnschrift';
+    transition: background-color 0.5s;
+}
+  
+.button:hover {
+    background-color: brown;
+}
+
+
+body {
+    background-color: #252525;
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: 'Bahnschrift';
+}
+
+.nbrArticles {
+    background-color: brown;
+    padding: 5px 10px 5px 10px;
+    border: 1px solid white;
+    border-radius: 100%;
+}
+
+.res {
+    margin: 0;
+}
+
+
+
+.user {
+    width: 15%;
+    max-width: 150px;
+}
+
+.sign {
+    padding-top: 10%;
+    background-color: #252525;
+}
+
+table {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+input[type="email"]{
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding:3px;
+}
+
+input[type="password"]{
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding:3px;
+}
+
+input[type="submit"]{
+    background-color: rgb(0, 0, 0);
+    border: none;
+    color: white;
+    padding: 16px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'Bahnschrift';
+}
+  
+input[type="submit"]:hover {
+    background-color: brown;
+}
+
+h1 {
+    margin: 0;
+    padding: 10px 25px;
+}
+
+h2 {
+    margin: 10px;
+}
+
+a {
+    margin: auto;
+    text-decoration:none;
+    color: white
+}
+
+@media all and (max-width: 700px)
+{
+    .navbar {
+        display: none;
+    }
+ 
+    .mobile-navbar {
+        display: flex;
+        justify-content: space-between;
+        background-color: rgb(0, 0, 0);
+        width: 100%;
+        height: auto;
+        top: 0px;
+        padding : 5px;
+    }
+}

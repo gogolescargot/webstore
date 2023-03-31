@@ -1,0 +1,273 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: auto;
+    top: 0px;
+    padding : 0;
+}
+
+.navbar-center {
+    display: flex;
+}
+
+.navbar-left {
+    display: flex;
+}
+
+.navbar-right {
+    display: flex;
+}
+
+.logo {
+    height: 20px;
+    padding: 4px 20px 0 20px;
+}
+
+.mobile-navbar {
+    display: none;
+}
+
+.mobile-navbar li ul {
+    display: none;
+    list-style: none;
+    margin:0;
+}
+
+.mobile-navbar li:hover ul {
+    display: block;
+    justify-content: right;
+    text-align: right;
+    list-style: none;
+}
+
+.mobile-navbar li {
+    display:block;
+    text-align: right;
+}
+
+.menu {
+    background-color: rgb(0, 0, 0);
+    border: none;
+    color: white;
+    padding: 22px 28px 22px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'Bahnschrift';
+    transition: background-color 0.5s;
+}
+  
+.menu:hover {
+    background-color: brown;
+}
+
+.promo {
+    background-color: brown;
+    padding:2px;
+}
+
+.button {
+    background-color: rgb(0, 0, 0);
+    border: none;
+    color: white;
+    padding: 24px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'Bahnschrift';
+    transition: background-color 0.5s;
+}
+  
+.button:hover {
+    background-color: brown;
+}
+
+.nbrArticles {
+    background-color: brown;
+    padding: 5px 10px 5px 10px;
+    border: 1px solid white;
+    border-radius: 100%;
+}
+
+
+body {
+    text-align: center;
+    color: black;
+    margin: 0;
+    padding: 0;
+    font-family: 'Bahnschrift';
+}
+
+.profil {
+    background-color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 24px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'Bahnschrift';
+    transition: background-color 0.5s;
+}
+
+.profildiv {
+    margin: 3%;
+}
+  
+.profil:hover {
+    background-color: brown;
+}
+
+.presentation {
+    width: 100%;
+    height: auto;
+}
+
+.encadre {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.product {
+    border-radius: 5%;
+    margin:30px;
+    width: 40%;
+    max-width: 400px;
+    min-width: 150px;
+}
+
+.texte {
+    display: block;
+}
+
+.endpage {
+    display: block;
+    justify-content: center;
+    margin: 100px 0px 20px 20px;
+}
+
+.buttonendpage {
+    background-color: rgb(0, 0, 0);
+    border: none;
+    color: white;
+    padding: 16px;
+    margin: 0 25px 25px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'Bahnschrift';
+    transition: background-color 0.5s;
+}
+  
+.buttonendpage:hover {
+    background-color: brown;
+}
+
+.quatrecentquatre {
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+
+table {
+    display: flex;
+    justify-content: center;
+    margin: 20px
+}
+
+.poursuivre {
+    background-color: rgb(0, 0, 0);
+    border: none;
+    color: white;
+    border-radius: 5px;
+    padding: 12px;
+    margin: 20px;
+    cursor: pointer;
+    font-family: 'Bahnschrift';
+    transition: background-color 0.5s;
+}
+  
+.poursuivre:hover {
+    background-color: brown;
+}
+
+h1 {
+    margin: 0;
+    padding: 10px 25px;
+}
+
+h2 {
+    margin: 10px;
+}
+
+.h2 {
+    margin: 10px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.h4 {
+    margin: 10px;
+}
+
+.res {
+    margin: 0;
+}
+
+a {
+    margin: auto;
+    text-decoration:none;
+}
+
+footer {
+    position:absolute;
+    width:100%;
+    padding: 100px 0 100px 0;
+    background-color: brown;
+    color: black;
+}
+
+.reseaux{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.reseau{
+    display: block;
+    height: 50px;
+    margin: 5px;
+}
+
+
+
+@media all and (max-width: 700px) {
+    .navbar {
+        display: none;
+    }
+ 
+    .mobile-navbar {
+        display: flex;
+        justify-content: space-between;
+        background-color: rgb(0, 0, 0);
+        width: 100%;
+        height: auto;
+        top: 0px;
+        padding : 5px;
+    }
+    .texte {
+        font-size: 12px;
+    }
+
+    .h2 {
+        margin: 10px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    
+    .h4 {
+        margin: 10px;
+        font-size: 14px;
+    }
+}
