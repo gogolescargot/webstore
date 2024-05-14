@@ -1,7 +1,7 @@
 <?php
 
 try {
-    $db = new PDO('mysql:host=mysql;dbname=gfuele;port=3306;charset=utf8','gauthier.galon','');
+    $db = new PDO('mysql:host=template;dbname=template;port=template;charset=utf8','template','');
 } 
 catch (Exception $e) {
     die('Error : '. $e -> getMessage());
